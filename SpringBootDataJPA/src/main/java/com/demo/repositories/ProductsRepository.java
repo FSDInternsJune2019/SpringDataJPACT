@@ -1,0 +1,11 @@
+package com.demo.repositories;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.demo.entities.Products;
+
+@Repository
+public interface ProductsRepository extends CrudRepository<Products,String> {
+
+}
